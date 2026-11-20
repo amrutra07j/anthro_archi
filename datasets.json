@@ -1,0 +1,14 @@
+[
+    {
+        "task": "Write a Python function named `add_total_column` that takes a PySpark DataFrame with numeric columns `price` and `quantity`, and returns a new DataFrame with an additional column `total` equal to price multiplied by quantity.",
+        "format": "Python"
+    },
+    {
+        "task": "Create a JSON object representing a PySpark StructType schema (as produced by `schema.json()`) for a DataFrame with three fields: `user_id` (long, non-nullable), `email` (string, nullable), and `signup_date` (date, nullable).",
+        "format": "JSON"
+    },
+    {
+        "task": "Write a regular expression to be used with PySpark's `regexp_extract` function that extracts the numeric status code (e.g., 404) from log lines formatted like `2023-08-15 12:01:33 ERROR [web-1] Request failed with status=404 path=/home`.",
+        "format": "Regex"
+    }
+]
